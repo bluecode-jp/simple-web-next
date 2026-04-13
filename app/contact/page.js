@@ -19,7 +19,7 @@ export default function Contact() {
         setButtonText("送信中・・・")
 
         // sleep
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        // await new Promise(resolve => setTimeout(resolve, 2000)); // API側でSleep処理
 
         // 値の表示（OKだったときの処理）
         // alert(`title=${data.title}, email=${data.email}, message=${data.message}`);
@@ -47,14 +47,14 @@ export default function Contact() {
             // メッセージをalertで表示
             alert(json.message);
 
+            // 値のリセット（場所移動：成功時のみリセット）
+            reset();
+
         } catch (error) {
             // エラーならエラー内容表示
             alert(error.message);
         }
 
-
-        // 値のリセット
-        reset();
 
         // 状態戻し
         setButtonText("問い合わせる");
