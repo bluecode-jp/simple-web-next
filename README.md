@@ -1,24 +1,25 @@
 # simple-web-next
 
-シンプルなWebUIをNext.jsで実装したサンプル。
+シンプルなWebUIの実装サンプル（Next.js）
 
-## 分ランチ情報
+>言語はJavaScript利用。
+
+## ブランチ情報
 
 - main
-    - シンプルなWebUIの実装（API連携まで）
+  - シンプルなWebAPIと連携する基本実装
 
 
-## 前提
+## 開発・動作確認環境
 
-- 環境
-    - macOS
-        - 特に依存要素は無いが、制作環境はmacOS
-    - Node.js
+- macOS(Apple Silico)
+- Node.js（24.x）
+- Google Chrome
 
 ## 利用方法
 
 ```bash
-git clone <リポジトリURL>
+git clone https://github.com/bluecode-jp/simple-web-next.git
 cd simple-web-next
 npm install
 npm run dev
