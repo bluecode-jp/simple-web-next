@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 
-export const metadata = { title: "Simple Web React - Home" };
+export const metadata = { title: "Simple Web Next - Home" };
 
 export default function Home() {
   return (
