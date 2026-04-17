@@ -5,7 +5,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 
 export const metadata = {
-  title: "Simple Web React",
+  title: "Simple Web Next",
 };
 
 export default function RootLayout({ children }) {
