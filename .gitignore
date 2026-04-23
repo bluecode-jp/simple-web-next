@@ -31,7 +31,8 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
+# 意図的に.evnを入れてる（普通は入れない）
+#.env*
 
 # vercel
 .vercel

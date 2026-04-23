@@ -25,7 +25,8 @@ export default function Contact() {
         // alert(`title=${data.title}, email=${data.email}, message=${data.message}`);
 
         // API連携
-        const api_url = "http://localhost:3333/contacts";
+        // const api_url = "http://localhost:3333/contacts";
+        const api_url = `${process.env.NEXT_PUBLIC_API_URL}/contacts`;
 
         try {
             // API問い合わせ
